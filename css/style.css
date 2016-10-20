@@ -1,0 +1,135 @@
+/* -----------------------------------------
+ GLOBAL
+----------------------------------------- */
+html,
+body {
+	min-height: 100%;
+}
+
+body {
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	background-color: #EEEEEE;
+	color: #fff;
+}
+
+/* -----------------------------------------
+ HELPERS
+----------------------------------------- */
+.group:before,
+.group:after {
+	content: '';
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.main-margin {
+	margin: 0 1.5% 25px;
+}
+.main-bg-color {
+	background-color: #2db249;
+}
+.section-bg-color {
+	background-color: #ffa600;
+}
+.bdrs {
+	border-radius: 5px;
+}
+
+/* -----------------------------------------
+ CONTAINER
+----------------------------------------- */
+.container {
+	margin: 10px auto 0;
+	padding: 25px 0 0;
+	max-width: 600px;
+	border: 2px solid #2db249;
+	background-color: #fff;
+}
+
+/* -----------------------------------------
+ HEADER
+----------------------------------------- */
+header {
+	position: relative;
+	min-height: 72px;
+	text-align: center;
+}
+
+.header__title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* -----------------------------------------
+ SECTION
+----------------------------------------- */
+.section {
+	padding: 30px 0 20px;
+	min-height: 186px;
+	text-align: center;
+	background-color: #afafaf;
+}
+
+.section__title {
+	margin-bottom: 20px;
+	color: #8c8c8c;
+}
+
+main,
+aside {
+	margin: 0 1.7%;
+	padding-top: 22px;
+	min-height: 95px;
+}
+
+main {
+	float: left;
+	width: 63%;
+}
+
+.main__title,
+.aside__title,
+.footer__title {
+	margin-bottom: 5px;
+}
+
+aside {
+	float: right;
+	width: 30%;
+}
+
+/* -----------------------------------------
+ BOX & COL1,COL2,COL3
+----------------------------------------- */
+.box,
+.col1,
+.col2,
+.col3 {
+	min-height: 72px;
+	line-height: 72px;
+	text-align: center;
+}
+
+.col1,
+.col2,
+.col3 {
+	float: left;
+	width: 30.3333%;
+}
+
+/* -----------------------------------------
+ FOOTER
+----------------------------------------- */
+footer {
+	clear: both;
+	padding-top: 25px;
+	min-height: 95px;
+	text-align: center;
+}
